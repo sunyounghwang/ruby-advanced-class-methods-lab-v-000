@@ -30,5 +30,6 @@ class Song
     self.all.each do |song|
       return song if song.name == name
     end
+    false
   end
 end
