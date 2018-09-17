@@ -47,7 +47,7 @@ class Song
 
   def self.new_from_filename(filename)
     song_array = filename.split(" - ")[1].chomp(".mp3")
-    pry
+    binding.pry
     song = self.new
     song.artist_name = song_array[0]
     song.name = song_array[1]
