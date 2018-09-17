@@ -49,6 +49,6 @@ class Song
     song_array = filename.split(" - ")
     song = self.new
     song.artist = song_array[0]
-    song.name = song_array[1]
+    song.name = song_array[1].delete(".mp3")
   end
 end
