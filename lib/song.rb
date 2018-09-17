@@ -50,5 +50,6 @@ class Song
     song = self.new
     song.artist = song_array[0]
     song.name = song_array[1].delete(".mp3")
+    song
   end
 end
