@@ -45,7 +45,7 @@ class Song
     all.sort_by { |song| song.name }
   end
 
-  def new_from_filename(filename)
+  def self.new_from_filename(filename)
     song_array = filename.split(" - ")[1].delete(".mp3")
     binding.pry
   end
