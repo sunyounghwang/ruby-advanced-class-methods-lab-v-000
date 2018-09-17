@@ -42,7 +42,7 @@ class Song
   end
 
   def self.alphabetical
-    all.map do |song|
+    all.each do |song|
       song.name.capitalize
     end
   end
