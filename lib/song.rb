@@ -27,13 +27,13 @@ class Song
   end
 
   def self.find_by_name(name)
-    self.all.each do |song|
+    all.each do |song|
       return song if song.name == name
     end
     false
   end
 
   def self.find_or_create_by_name(name)
-    
+    if find_by_name
   end
 end
