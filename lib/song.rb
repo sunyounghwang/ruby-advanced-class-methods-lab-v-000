@@ -43,8 +43,7 @@ class Song
 
   def self.alphabetical
     all.map do |song|
-      song.name.capitalize
+      song.name = song.name.capitalize
     end
-    all
   end
 end
