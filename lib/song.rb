@@ -18,6 +18,6 @@ class Song
 
   def self.new_by_name(name)
     new_song = self.new
-    puts self
+    binding.pry
   end
 end
