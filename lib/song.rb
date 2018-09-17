@@ -45,5 +45,6 @@ class Song
     all.map do |song|
       song.name.capitalize!
     end
+    all
   end
 end
