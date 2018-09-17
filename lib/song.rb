@@ -42,9 +42,6 @@ class Song
   end
 
   def self.alphabetical
-    sorted = []
     all.map.sort_by do |song|
-
-    end
   end
 end
