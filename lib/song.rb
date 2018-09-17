@@ -52,4 +52,7 @@ class Song
     song.name = song_array[1].chomp(".mp3")
     song
   end
+
+  def create_from_filename
+  end
 end
