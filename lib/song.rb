@@ -42,6 +42,7 @@ class Song
   end
 
   def self.alphabetical
+    alpha = []
     all.each do |song|
       song.name.capitalize
     end
