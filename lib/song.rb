@@ -46,6 +46,6 @@ class Song
   end
 
   def new_from_filename(filename)
-    
+    filename.split(" - ")[1].delete(".mp3")
   end
 end
