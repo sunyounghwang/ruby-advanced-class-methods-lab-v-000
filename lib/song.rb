@@ -26,4 +26,8 @@ class Song
     self.new_by_name(name).save
   end
 
+  def self.find_by_name(name)
+    self.all.each do |song|
+    end
+  end
 end
