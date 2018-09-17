@@ -42,7 +42,8 @@ class Song
   end
 
   def self.alphabetical
-    all.each do |song|
+    all.map do |song|
+
     end
   end
 end
